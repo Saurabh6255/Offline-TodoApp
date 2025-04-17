@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/tools"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    card_view:cardCornerRadius="16dp"
+    card_view:cardElevation="6dp"
+    android:foreground="?attr/selectableItemBackground"
+    android:clickable="true"
+    android:transitionName="task_title"
+    android:focusable="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:id="@+id/taskContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_toStartOf="@id/imgEdit"
+            android:layout_toLeftOf="@id/imgEdit">
+
+            <TextView
+                android:id="@+id/txtTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Task Title"
+                android:textColor="?attr/android:textColorPrimary"
+            android:textSize="18sp"
+                android:maxLines="2"
+                android:ellipsize="end"
+
+                android:textStyle="bold"
+                 />
+
+            <TextView
+                android:id="@+id/txtDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Description of the task goes here..."
+                android:textSize="14sp"
+                android:textColor="#757575"
+                android:maxLines="10"
+                android:ellipsize="end"
+                android:layout_marginTop="4dp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imgEdit"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/edit"
+            android:contentDescription="Edit Task"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:tint="@color/green"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:visibility="gone"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:padding="6dp" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
