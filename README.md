@@ -1,4 +1,4 @@
-# 📝 Kotlin To-Do List App
+# 📝 Kotlin To-Do List App Using Room Database(MVVM)
 
 A simple and clean To-Do app built using Kotlin and XML, with support for dark mode, shared element transitions, and drag-and-drop reordering.
 
@@ -36,4 +36,4 @@ A simple and clean To-Do app built using Kotlin and XML, with support for dark m
 
 ---
 
-## 📁 Folder Structure
+
