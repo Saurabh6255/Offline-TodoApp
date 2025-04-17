@@ -17,7 +17,12 @@ A simple and clean To-Do app built using Kotlin and XML, with support for dark m
 
 ## 📷 Screenshots
 
-*(Add your screenshots here)*
+![screenshots1](https://github.com/Saurabh6255/Offline-TodoApp/blob/06b90e3e9284f15ffb018b2d101be76003f1c488/Screenshot_20250417_144952.png****)
+![screenshots2](https://github.com/Saurabh6255/Offline-TodoApp/blob/06b90e3e9284f15ffb018b2d101be76003f1c488/Screenshot_20250417_145110.png)
+![screenshots3](https://github.com/Saurabh6255/Offline-TodoApp/blob/06b90e3e9284f15ffb018b2d101be76003f1c488/Screenshot_20250417_145135.png)
+![screenshots4](https://github.com/Saurabh6255/Offline-TodoApp/blob/06b90e3e9284f15ffb018b2d101be76003f1c488/Screenshot_20250417_145203.png)
+![screenshots5](https://github.com/Saurabh6255/Offline-TodoApp/blob/06b90e3e9284f15ffb018b2d101be76003f1c488/Screenshot_20250417_145224.png)
+
 
 ---
 
