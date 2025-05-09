@@ -58,6 +58,7 @@ class AddEditActivity : AppCompatActivity() {
         supportActionBar?.title = "Add/Update" // Optional
 
 
+
         val intentdata = intent
         id= intentdata.getStringExtra("ID").toString()
         title= intentdata.getStringExtra("TITLE").toString()
